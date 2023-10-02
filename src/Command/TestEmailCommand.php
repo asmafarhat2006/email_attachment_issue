@@ -25,8 +25,8 @@ class TestEmailCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $message = new Email();
-        $message->from('james.manley@jadu.co.uk');
-        $message->to('james.manley@jadu.co.uk');
+        $message->from('asma.farhat2003@gmail.com');
+        $message->to('asma.farhat2003@gmail.com');
         $message->html('<p>Test</p>');
 
         for ($i = 0; $i < 4; $i++) {
